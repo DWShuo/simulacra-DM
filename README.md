@@ -1,6 +1,6 @@
 # simulacra-DM
 Dactyl Manuform - Simulacra edition
-
+<img src="images/simulacra.png" width="850">
 
 ## Bill of materials
 
