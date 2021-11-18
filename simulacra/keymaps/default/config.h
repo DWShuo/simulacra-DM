@@ -10,3 +10,4 @@
 #define ENCODER_RESOLUTION 4
 
 #define OLED_TIMEOUT 600000 // 10 minutes
+#define OLED_BRIGHTNESS 50
