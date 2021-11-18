@@ -37,9 +37,9 @@ After flashing for the first time the Func layer contains a RESET key for each s
 `qmk compile -kb handwired/simulacra -km default -e PREPROCESSOR=LEFT`
 
 #### Flashing firmware
-`qmk flash -kb handwired/simulacra -km default -bl dfu-split-right`
+`qmk flash -kb handwired/simulacra -km default -bl dfu-split-right -e PREPROCESSOR=RIGHT`
 
-`qmk flash -kb handwired/simulacra -km default -bl dfu-split-left`
+`qmk flash -kb handwired/simulacra -km default -bl dfu-split-left -e PREPROCESSOR=LEFT`
 
 ## Keyboard Layout
 #### [_QWERTY] = LAYOUT
