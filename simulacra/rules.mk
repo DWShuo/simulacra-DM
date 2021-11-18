@@ -13,6 +13,7 @@ MCU = atmega32u4
 BOOTLOADER = atmel-dfu  # Elite-C
 
 EXTRAFLAGS += -flto
+OPT_DEFS += -D${PREPROCESSOR}
 
 # Build Options
 #   change to "no" to disable the options, or define them in the Makefile in
